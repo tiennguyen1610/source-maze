@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+ol, ul {
+    list-style: none; 
+}
+
+body {
+    font-family: europa, sans-serif;
+}
+.txt-highlight {
+    color: #5fbc65;
+}
+.title {
+    font-size: 57px;
+}
+.description {
+    color: #b5b5b5;
+}
+.btn {
+    border-radius: 30px;
+}
+.btn-custom-1 {
+    color: #10437a;
+    border: 2px solid #10437a;
+    font-size: 20px;
+    padding: 8px 20px;
+}
+.btn-custom-2 {
+    color: #5fbc65;
+    border: 2px solid #5fbc65;
+    font-size: 20px;
+    padding: 8px 20px;
+}
+
+.navbar {
+    background-color: #454545;
+}
+.navbar .navbar-brand img {
+    width: 150px;
+    height: 57px;
+}
+.navbar .navbar-nav a {
+    color: #fff;
+}
+.navbar .bi.bi-list {
+    color: #fff;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.hero-banner {
+    min-height: 739px;
+    background: url(images/hero.jpg) no-repeat top center;
+}
+.hero-banner .title {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.hero-banner .btn-custom {
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    padding: 8px 20px;
+    margin-right: 15px;
+}
+.hero-banner .btn-custom.btn-active {
+    background-color: #5fbc65;
+    border-color: #5fbc65;
+}
+
+.content {
+    padding-top: 80px;
+}
+.content .container {
+    border-bottom: 2px solid #444444;
+    padding-bottom: 80px;
+}
+.content .description {
+    line-height: 2;
+    font-size: 90%;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+.trust-content {
+    padding-top: 80px;
+}
+.trust-content .container {
+    border-bottom: 2px solid #444444;
+    padding-bottom: 80px;
+}
+.trust-content .title {
+    line-height: 1.3;
+    margin-bottom: 26px;
+}
+.trust-content .description {
+    line-height: 1.5;
+    margin-bottom: 26px;
+}
+.trust-content .group-btn {
+    margin-bottom: 56px;
+}
+.trust-content .group-btn .btn {
+    margin-right: 20px;
+}
+.trust-content .inner-content {
+    border: 2px solid #444444;
+    border-radius: 40px;
+    padding: 40px 20px;
+}
+.trust-content .inner-content .title{
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+.trust-content .inner-content .description {
+    font-size: 80%;
+}
+
+.testimonial .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.testimonial .inner-content {
+    color: #fff;
+    background-color: #454545;
+    border-radius: 18px;
+    padding: 30px;
+    font-size: 28px;
+}
+
+.footer {
+    background-color: #454545;
+}
+.footer .footer-top {
+    padding: 80px 0;
+}
+.footer .footer-top .title {
+    color: #fff;
+}
+.footer .footer-top input {
+    border-radius: 30px 0 0 30px;
+}
+.footer .footer-top .btn-submit {
+    background-color: #5fbc65;
+    border-color: #5fbc65;
+    color: #fff;
+    padding: 0 20px;
+}
+.footer-mid {
+    padding-bottom: 80px;
+}
+.footer-mid p, a, i{
+    color: #fff;
+}
+.footer-mid .menu-footer .menu-title {
+    position: relative;
+    font-size: 20px;
+}
+.footer-mid .menu-footer .menu-title::after {
+    content: "";
+    height: 1px;
+    width: 25px;
+    background-color: #5fbc65;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.footer-mid .menu-footer a {
+    text-decoration: none;
+}
+.footer-mid .menu-footer .menu-links{
+    padding-left: 0;
+}
+.footer-mid .menu-footer .menu-links li {
+    margin-bottom: 15px;
+}
+.footer .footer-bottom {
+    border-top: 2px solid #fff;
+    padding: 20px 0;
+}
+.footer .footer-bottom * {
+    color: #fff
+}
+.footer .footer-bottom a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 2px solid #fff;
+    line-height: 1;
+}
+.footer .footer-bottom a:first-child {
+    border-left: none;
+}
+.footer .footer-bottom a:last-child {
+    padding-right: 0;
+}
+.scroll-top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    padding: 0.25rem;
+    width: 2rem;
+    background-color: #5fbc65;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+}
+.scroll-top span {
+    left: calc(50% - 0.5rem);
+    line-height: 1;
+    padding-top: 0.5rem;
+    position: relative;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    white-space: nowrap;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    letter-spacing: 5px;
+ }
+@media (min-width: 992px) {
+    .navbar .navbar-nav a {
+        margin: 0 30px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: right;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .hero-banner {
+        min-height: 550px;
+    }
+    .trust-content .title {
+        font-size: 40px;
+    }
+    .trust-content .inner-content {
+        margin-bottom: 20px;
+    }
+}

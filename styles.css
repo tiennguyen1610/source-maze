@@ -244,4 +244,15 @@ body {
     .trust-content .inner-content {
         margin-bottom: 20px;
     }
+    .copyright {
+        text-align:center !important;
+    }
+    .link-policy {
+        text-align: center !important;
+    }
+    .footer .footer-bottom a {
+        display: block;
+        border-left: none;
+        padding: 5px 0;
+    }
 }
